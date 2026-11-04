@@ -6,7 +6,9 @@ digidemocracy.ro handles identity, votes and political opinions, so security rep
 
 **Please do not open public issues for security problems.**
 
-Email: **security@digidemocracy.ro** — ⚠️ *TO CONFIRM: this address is a placeholder and may not be active yet.* Until it is confirmed, use GitHub's private vulnerability reporting ("Security" tab → "Report a vulnerability") once enabled on this repository.
+Email: **contact@digidemocracy.ro**
+
+You can also use GitHub's private vulnerability reporting ("Security" tab → "Report a vulnerability") once enabled on this repository.
 
 Please include a description, steps to reproduce, affected version/commit and potential impact. We aim to acknowledge reports within 7 days. Please give us reasonable time to fix before public disclosure.
 
