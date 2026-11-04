@@ -1,0 +1,24 @@
+# Generated Decidim app (created by app/setup.sh)
+/app/digidemocracy_app/
+# Ruby / Rails
+*.gem
+.bundle/
+vendor/bundle/
+log/
+tmp/
+coverage/
+node_modules/
+public/packs*/
+public/decidim-packs/
+storage/
+spec/decidim_dummy_app/
+# Secrets
+.env
+.env.*
+config/master.key
+*.key
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
+*.swp
