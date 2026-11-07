@@ -39,7 +39,7 @@ See [app/README.md](app/README.md). In short, with Docker installed:
 
 ```bash
 cd app
-./setup.sh          # generates the Decidim app into app/digidemocracy_app (one-time)
+./setup.sh          # one-time, can take 20-40+ min; needs 8 GB+ RAM for Docker
 docker compose up   # http://localhost:3000
 ```
 

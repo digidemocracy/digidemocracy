@@ -39,7 +39,7 @@ Vezi [app/README.md](app/README.md). Pe scurt, cu Docker instalat:
 
 ```bash
 cd app
-./setup.sh          # generează aplicația Decidim în app/digidemocracy_app (o singură dată)
+./setup.sh          # o singură dată, poate dura 20-40+ min; Docker are nevoie de 8 GB+ RAM
 docker compose up   # http://localhost:3000
 ```
 
