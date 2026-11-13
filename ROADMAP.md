@@ -25,6 +25,8 @@ Identity verification through Decidim's authorization handlers: start with SMS /
 ## M2 — Citizen-created communities
 First custom module ([decidim-module-communities](decidim-module-communities/)). Any verified user can create a community (local / national / international) with membership rules, quorum, minimum seniority and funding transparency. Reuses Decidim debates, comments, meetings and surveys inside communities.
 
+**Community support (no in-platform payments).** A community can fund itself from the content it creates and from the support of members and sympathisers. Digidemocracy does not host content or process payments: each community publicly declares its channels (YouTube, podcast, blog) and support pages (Open Collective, Patreon), and its transparency page shows its funding sources. Money never buys votes, visibility or positions in lists. An in-platform patronage module is out of scope for now.
+
 ## M3 — Digital institutions & lists
 A community creates a digital institution (based on Decidim assemblies) with bodies elected by members. Lists built from existing components: policy proposals (Proposals), petitions & initiatives (Initiatives), citizen requests tracked by stage. Each item gets a jurisdiction level and a target.
 
