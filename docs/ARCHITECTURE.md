@@ -8,7 +8,7 @@ Target Decidim version: **0.32.x** (latest release at time of writing: v0.32.2, 
 | White paper concept | Decidim building block | Status |
 |---|---|---|
 | Citizen identity / verification | Authorizations (verification handlers) | Reuse; add RO handler (SMS/document, later ROeID) — M1 |
-| Communities c1…cn (local, national, international) | User groups (`decidim-core`) as base | **Custom** `decidim-module-communities` — M2 |
+| Communities c1…cn (local, national, international) | Participatory space based on Assemblies, created by citizens (see [COMMUNITIES.md](COMMUNITIES.md)) | **Custom** `decidim-module-communities` — M2 |
 | Digital institutions i1…in | Assemblies (`decidim-assemblies`), incl. members and child assemblies | Reuse + custom link community → institution — M3 |
 | Policy proposals list | Proposals (`decidim-proposals`) | Reuse — M3 |
 | Petitions / public initiatives lists | Initiatives (`decidim-initiatives`), signatures | Reuse — M3 |
@@ -55,7 +55,7 @@ flowchart TD
 
 | Module | Milestone | State |
 |---|---|---|
-| `decidim-module-communities` | M2 | Skeleton in this repo |
+| `decidim-module-communities` | M2 | Skeleton in this repo; design in [COMMUNITIES.md](COMMUNITIES.md) |
 | jurisdiction/target metadata for lists | M3 | Planned |
 | `decidim-module-state-link` | M4 | Planned |
 | protest flow | M5 | Planned |
